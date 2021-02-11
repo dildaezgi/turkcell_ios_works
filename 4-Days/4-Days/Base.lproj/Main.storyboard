@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hlt-Cj-uHv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Products-->
+        <scene sceneID="G3u-Ca-CNv">
+            <objects>
+                <tableViewController modalPresentationStyle="fullScreen" id="WCs-Za-UVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z42-Pd-KJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="slu-cM-Iei">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="3Vf-RM-fRf" detailTextLabel="Lj7-zZ-gY0" imageView="2Uu-5D-j7a" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="Ig4-Bf-0bU">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ig4-Bf-0bU" id="qdL-UX-sV2">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Macbook Pro " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Vf-RM-fRf">
+                                                    <rect key="frame" x="83" y="20" width="105" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="22.500 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lj7-zZ-gY0">
+                                                    <rect key="frame" x="83" y="43.5" width="51" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" systemColor="systemPinkColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="macbook_pro" id="2Uu-5D-j7a">
+                                                    <rect key="frame" x="20" y="16" width="48" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0e7-qp-H62" kind="show" id="wn0-m8-5to"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LnX-Sw-hEc" detailTextLabel="izq-Za-adM" imageView="BlL-K3-F0A" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="POJ-Jw-rvI">
+                                        <rect key="frame" x="0.0" y="108" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="POJ-Jw-rvI" id="VaZ-so-SS0">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="iPhone X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LnX-Sw-hEc">
+                                                    <rect key="frame" x="83" y="20" width="68" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="12.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="izq-Za-adM">
+                                                    <rect key="frame" x="83" y="43.5" width="50" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" systemColor="systemPinkColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iphone" id="BlL-K3-F0A">
+                                                    <rect key="frame" x="20" y="16" width="48" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="umE-Bw-vT3" kind="show" id="qho-E0-R2q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Mmx-2C-MaW" detailTextLabel="XTC-Rb-d8W" imageView="Csf-G2-nza" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="wkE-A1-FU5">
+                                        <rect key="frame" x="0.0" y="188" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wkE-A1-FU5" id="ozY-NA-J6E">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Apple TV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mmx-2C-MaW">
+                                                    <rect key="frame" x="83" y="20" width="70" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="4.500 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XTC-Rb-d8W">
+                                                    <rect key="frame" x="83" y="43.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" systemColor="systemPinkColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="appletv" id="Csf-G2-nza">
+                                                    <rect key="frame" x="20" y="16" width="48" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="htl-4c-e5m" kind="show" id="xXV-VX-0tm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="O6E-0I-lOB" detailTextLabel="Fae-21-Dp7" imageView="6jz-hf-Bzp" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="Okp-k9-J4i">
+                                        <rect key="frame" x="0.0" y="268" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Okp-k9-J4i" id="jzn-en-GjE">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Macbook Air " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O6E-0I-lOB">
+                                                    <rect key="frame" x="83" y="20" width="100.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="20.500 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fae-21-Dp7">
+                                                    <rect key="frame" x="83" y="43.5" width="51" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" systemColor="systemPinkColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="macbook_pro" id="6jz-hf-Bzp">
+                                                    <rect key="frame" x="20" y="16" width="48" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UAv-WW-Iks" kind="show" id="TUp-O3-kWA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="WCs-Za-UVC" id="3D6-QI-BqQ"/>
+                            <outlet property="delegate" destination="WCs-Za-UVC" id="CNy-S2-Y5C"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Products" id="3QU-BC-83k"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iOh-Bh-Fqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="87"/>
+        </scene>
+        <!--Macbook Pro-->
+        <scene sceneID="jb1-wr-ifx">
+            <objects>
+                <viewController title="Macbook Pro" id="0e7-qp-H62" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcP-8K-aNL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="macbookpro" translatesAutoresizingMaskIntoConstraints="NO" id="vkv-JY-HVS">
+                                <rect key="frame" x="20" y="110" width="374" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="99p-fd-ave">
+                                <rect key="frame" x="20" y="334" width="374" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Ekran boyutu diyagonal olarak ölçülür.
+
+İletişim için: 0534 310 38 35
+
+Web: https://google.com.tr
+
+Adres: Levazım Mahallesi Zorlu Center, Koru Sokağı No:2, 34340 Beşiktaş
+
+Takvim: Çarşamba 12:30
+
+Intel tabanlı modeller 32 GB’a kadar bellek ve 4 TB’a kadar depolama kapasitesiyle sunulur. 1 TB = 1 trilyon bayt; biçimlendirilmiş gerçek kapasite daha azdır.
+1 TB = 1 trilyon bayt; biçimlendirilmiş gerçek kapasite daha azdır.
+
+Testler Apple tarafından Ekim 2020’de, 8 GB RAM ve 512 GB SSD ile yapılandırılmış, Apple M1 çipe sahip ön üretim 13 inç MacBook Pro sistemleri kullanılarak gerçekleştirilmiştir. Apple TV uygulamasından film oynatma testi, pil ömrünü, ekran parlaklığı en düşükten 8 tık yukarı ayarlanmış halde 1080p HD içerik oynatarak ölçer. Pil ömrü kullanıma ve yapılandırmaya göre değişir.
+
+Daha fazla bilgi için lütfen apple.com/tr/batteries sayfasını inceleyin.
+Testler Apple tarafından Ekim 2019’da, 16 GB RAM’e ve 1 TB SSD’ye sahip 2.3 GHz 8 çekirdekli Intel Core i9 tabanlı ön üretim 16 inç MacBook Pro sistemleri kullanılarak gerçekleştirilmiştir. Wireless internet testi, pil ömrünü, ekran parlaklığı en düşükten 12 tık yukarı veya %75’e ayarlanmış halde 25 popüler web sitesini wireless bağlantı üzerinden gezinerek ölçer. Apple TV uygulamasından film oynatma testi, pil ömrünü, ekran parlaklığı en düşükten 12 tık yukarı veya %75’e ayarlanmış halde 1080p HD içerik oynatarak ölçer. 
+
+Bekleme testi, pil ömrünü, wireless bir ağa bağlanmış ve bir iCloud hesabında oturum açılmış bir sistemin Safari ve Mail uygulamaları başlatılmış ve tüm sistem ayarları varsayılan değerlerde bırakılmış halde bekleme moduna girmesini sağlayarak ölçer. Pil ömrü kullanıma ve yapılandırmaya göre değişir. Daha fazla bilgi için lütfen apple.com/tr/batteries sayfasını inceleyin.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uPQ-K0-O3y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Macbook Pro" id="Am7-pI-NSJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bSQ-5C-hzv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934.78260869565224" y="-501.5625"/>
+        </scene>
+        <!--iPhone X-->
+        <scene sceneID="N4g-r1-1jB">
+            <objects>
+                <viewController id="umE-Bw-vT3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HhQ-IB-P2s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphonex_d" translatesAutoresizingMaskIntoConstraints="NO" id="dur-Og-X2D">
+                                <rect key="frame" x="20" y="110" width="374" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mhs-SE-Dor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iPhone X" id="FoS-uc-OXy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mLy-lZ-lfG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857.9710144927537" y="-262.5"/>
+        </scene>
+        <!--Macbook Air-->
+        <scene sceneID="P0c-a3-f6q">
+            <objects>
+                <viewController id="UAv-WW-Iks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MUo-Sw-FL0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="macbookair_d" translatesAutoresizingMaskIntoConstraints="NO" id="eil-a5-jIN">
+                                <rect key="frame" x="20" y="110" width="374" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="olb-ON-Tjd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Macbook Air" id="T54-0b-Mu3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0lX-wb-89w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="877"/>
+        </scene>
+        <!--Apple TV-->
+        <scene sceneID="a5p-SS-wxS">
+            <objects>
+                <viewController id="htl-4c-e5m" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9gw-OC-Yi8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appletv_d" translatesAutoresizingMaskIntoConstraints="NO" id="VAG-j3-WCm">
+                                <rect key="frame" x="20" y="110" width="374" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zFF-LI-FDC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Apple TV" id="dTJ-dw-8nT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWD-99-NgT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857.9710144927537" y="462.72321428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TQJ-da-jfy">
+            <objects>
+                <viewController id="Hlt-Cj-uHv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SFu-Sx-xvK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXn-Lb-CyW">
+                                <rect key="frame" x="162" y="270" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Static Button"/>
+                                <connections>
+                                    <segue destination="cw3-Nv-5Ar" kind="presentation" modalPresentationStyle="fullScreen" id="Q0U-71-r03"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pK6-eB-amj">
+                                <rect key="frame" x="152" y="433" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dynamic Button"/>
+                                <connections>
+                                    <segue destination="O0R-d1-YsU" kind="show" id="wrh-XB-FFF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4ZI-j9-PUW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwP-CL-Ydm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1762.3188405797102" y="70.982142857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2wA-wa-KRe">
+            <objects>
+                <navigationController modalPresentationStyle="fullScreen" id="cw3-Nv-5Ar" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ugq-Sr-yH1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gpp-m0-WOV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WCs-Za-UVC" kind="relationship" relationship="rootViewController" id="3yh-Es-72j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsK-SW-RsQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-742" y="87"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="KSK-ZX-6X8">
+            <objects>
+                <tableViewController id="4az-Tf-o6x" customClass="Users" customModule="__Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s2x-g7-Md3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="T68-s9-zL8">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T68-s9-zL8" id="YP8-vf-6Gi">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4az-Tf-o6x" id="hnh-CU-Gkz"/>
+                            <outlet property="delegate" destination="4az-Tf-o6x" id="F5g-IV-Gpf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="XEp-fS-VY7"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NYr-zO-clv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-933" y="984"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YyV-is-M8n">
+            <objects>
+                <navigationController modalPresentationStyle="fullScreen" id="O0R-d1-YsU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ra1-t4-USF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BWv-ip-PJB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4az-Tf-o6x" kind="relationship" relationship="rootViewController" id="ATv-D1-1EV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRm-nE-cTC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1762" y="984"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appletv" width="48" height="48"/>
+        <image name="appletv_d" width="670" height="660"/>
+        <image name="iphone" width="48" height="48"/>
+        <image name="iphonex_d" width="1024" height="1024"/>
+        <image name="macbook_pro" width="48" height="48"/>
+        <image name="macbookair_d" width="892" height="820"/>
+        <image name="macbookpro" width="892" height="820"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
